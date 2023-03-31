@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Business Card Reader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Business Card Reader</h1>
+    </header>
+    <main>
+        <form>
+
+            <label for="image">Select an image of a business card:</label>
+
+            <input type="file" id="image" accept="image/*">
+
+            <button type="submit">Extract Info</button>
+        </form>
+        <div id="results">
+            <h2>Extracted Information:</h2>
+            <p id="name"></p>
+            <p id="email"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
